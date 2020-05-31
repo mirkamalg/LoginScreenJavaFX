@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.materialdesignicons.MaterialDesignIconView?>
+<?import de.jensd.fx.glyphs.materialicons.MaterialIconView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="369.0" prefWidth="600.0" style="-fx-background-color: #2A2E37;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SignUpController">
+   <children>
+      <MaterialIconView glyphName="PERSON_ADD" layoutX="278.0" layoutY="96.0" size="45" style="-fx-font-family: &quot;Material Icons&quot;; -fx-fill: #B2B2B2;" />
+      <MaterialDesignIconView glyphName="AT" layoutX="92.0" layoutY="175.0" size="35" style="-fx-fill: #B2B2B2;" />
+      <JFXTextField fx:id="emailTextField" layoutX="133.0" layoutY="145.0" prefHeight="31.0" prefWidth="360.0" promptText="E-mail" style="-jfx-focus-color: #639a67; -fx-prompt-text-fill: #b2b2b2; -fx-text-inner-color: #b2b2b2; -jfx-label-float: true;" unFocusColor="#b2b2b2" />
+      <JFXPasswordField fx:id="passwordField" layoutX="133.0" layoutY="200.0" prefHeight="31.0" prefWidth="360.0" promptText="Password" style="-jfx-focus-color: #639a67; -fx-prompt-text-fill: #b2b2b2; -fx-text-inner-color: #b2b2b2; -jfx-label-float: true;" unFocusColor="#b2b2b2" />
+      <JFXPasswordField fx:id="passwordField1" layoutX="133.0" layoutY="257.0" prefHeight="31.0" prefWidth="360.0" promptText="Re-enter password" style="-jfx-focus-color: #639a67; -fx-prompt-text-fill: #b2b2b2; -fx-text-inner-color: #b2b2b2; -jfx-label-float: true;" unFocusColor="#b2b2b2" />
+      <JFXButton fx:id="signUpButton" buttonType="RAISED" layoutX="265.0" layoutY="312.0" onAction="#signUpAction" style="-fx-border-radius: 25px; -fx-background-color: #639a67;" text="Sign up" />
+      <MaterialDesignIconView glyphName="KEY" layoutX="88.0" layoutY="229.0" size="35" style="-fx-fill: #B2B2B2;" text="" />
+      <MaterialDesignIconView glyphName="KEY" layoutX="88.0" layoutY="285.0" size="35" style="-fx-fill: #B2B2B2;" text="" />
+   </children>
+</AnchorPane>
